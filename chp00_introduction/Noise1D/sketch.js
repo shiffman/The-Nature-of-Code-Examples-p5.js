@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
 
-  fill(0, 10);
+  fill(0, 10); //fills with color black(0) and alpha = 10
   rect(0,0,width,height);
 
   //var n = random(0,width);  // Try this line instead of noise
@@ -31,5 +31,5 @@ function draw() {
   fill(200);
   ellipse(x,height/2, 64, 64);
 
-  print(n);
+
 }
